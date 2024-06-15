@@ -42,14 +42,28 @@ body {
   font-size: 20px;
 }
 
-.child {
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
+/* Other solutions would be to chain the selectors or replace '.text. with 'div' and move it under 'div.text':
+  .text.child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+*/
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+/*
+div .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+*/
