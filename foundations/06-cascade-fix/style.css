@@ -20,13 +20,21 @@ body {
   p.small-para {
       font-size: 14px;
       font-weight: 800;
-  } */
+  } 
+*/
 
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
+/* Another solution is to erase the class selector and use the id instead:
+  #confirm-button {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+  }
+*/
 
 .button {
   background-color: rgb(255, 255, 255);
